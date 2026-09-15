@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://interview-iq-livid.vercel.app",
     credentials: true
 }));
 
